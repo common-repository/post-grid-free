@@ -1,0 +1,213 @@
+/**
+ * All of the CSS for your admin-specific functionality should be
+ * included in this file.
+ */
+
+ .pic_postgrid_settings {
+  margin: 20px 0;
+}
+.pic_postgrid_settings .option-box {
+  margin: 10px 0;
+  padding: 10px;
+}
+.pic_postgrid_settings .option-box:hover {
+}
+.pic_postgrid_settings .option-box .option-title {
+  font-size: 16px;
+  font-weight: bold;
+}
+.pic_postgrid_settings .option-box .option-info {
+  color: rgb(153, 153, 153);
+  font-size: 13px;
+  font-weight: normal;
+  margin: 10px 0;
+}
+.pic_postgrid_settings ul.tab-nav {
+  clear: both;
+  margin: 0;
+  padding: 0;
+}
+.pic_postgrid_settings ul.tab-nav li {
+  background: none repeat scroll 0 0 rgb(230, 230, 230);
+  cursor: pointer;
+  display: inline-block;
+  float: left;
+  margin: 0;
+  padding: 15px 20px;
+}
+.pic_postgrid_settings ul.tab-nav li.active {
+  background: #0073aa;
+  font-weight: bold;
+  color: #fff;
+}
+.pic_postgrid_settings ul.box {
+  clear: both;
+  margin: 0;
+  padding: 0;
+}
+.pic_postgrid_settings ul.box li.tab-box {
+  background: rgb(255, 255, 255) none repeat scroll 0 0;
+  display: none;
+  margin: 0;
+  width: 100%;
+}
+.pic_postgrid_settings .new_user_profile_social {
+  margin: 15px 5px;
+}
+.pic_postgrid_settings ul.voting-bg-img-list {
+}
+.pic_postgrid_settings ul.voting-bg-img-list li {
+  display: inline-block;
+  margin: 5px;
+}
+.pic_postgrid_settings ul.voting-bg-img-list li.bg-selected {
+}
+.pic_postgrid_settings ul.voting-bg-img-list li img {
+  border: 2px solid #ffffff;
+}
+.pic_postgrid_settings ul.voting-bg-img-list li.bg-selected img {
+  border: 2px solid #ff5a11;
+}
+.pic_postgrid_settings h2 {
+  font-size: 20px;
+  font-weight: bold;
+  margin: 25px 0;
+}
+.pic_postgrid_settings .expandable {}
+.pic_postgrid_settings .expandable .items {
+  background: none repeat scroll 0 0 rgb(255, 255, 255);
+  border-bottom: 1px solid rgb(153, 153, 153);
+  margin: 2px 0;
+}
+.pic_postgrid_settings .expandable .items.ui-sortable-helper {
+  border: 1px dashed rgb(153, 153, 153);
+}
+.pic_postgrid_settings .expandable .header {
+  background: none repeat scroll 0 0 rgb(255, 255, 255);
+  padding: 5px;
+}
+.pic_postgrid_settings .expandable .active .options {
+  display: block;
+}
+.pic_postgrid_settings .expandable .options {
+  background: none repeat scroll 0 0 rgb(240, 240, 240);
+  display: none;
+  padding: 10px;
+}
+
+@media all and (max-width: 799px) {
+  .pic_postgrid_settings ul.tab-nav li {
+    display: block;
+    float: none;
+  }
+  .pic_postgrid_settings ul.tab-nav li.active {
+    font-weight: bold;
+  }
+  .pic_postgrid_settings .pricing-table .column {
+    display: block;
+    float: none;
+    width: 100%;
+    border-right: 1px solid #ff9601;
+    margin: 50px 0;
+  }
+}
+
+.pic_postgrid_settings .option-box span.prohints a {
+    color: red;
+    font-weight: bold;
+    text-decoration: none;
+    box-shadow: none;
+    outline: none;
+}
+.pick-review {
+    display: block;
+    overflow: hidden;
+}
+.pick-review a.pick-btn {
+    padding: 10px 10px;
+    font-size: 15px;
+    color: #fff;
+    background: #135e96;
+    text-align: center;
+    display: block;
+    overflow: hidden;
+}
+.pic-postgrid-customizer-areas{
+  display: block;
+  overflow: hidden;
+}
+.pic-postgrid-customizer-inner{
+    display: block;
+  overflow: hidden;
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+}
+.pic-postgrid-customizer-inner:last-child {
+    border-bottom: none;
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+.pic-postgrid-customizer-inner.extra-border {
+    border-bottom: 1px solid #ddd;
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+}
+.pic-postgrid-customizer-heading{
+    width: 190px;
+    float: left;
+    display: block;
+    overflow: hidden;
+    margin-right: 20px;
+}
+.pic-postgrid-customizer-heading span.sub-heading{
+    font-size: 14px;
+    margin: 0;
+    padding: 0;
+    display: block;
+    overflow: hidden;
+    margin-bottom: 10px;
+  font-weight: bold;
+}
+.pic-postgrid-customizer-heading span.sub-description{
+    font-size: 14px;
+    margin: 0;
+    padding: 0;
+    display: block;
+    overflow: hidden;
+    margin-bottom: 10px;
+  line-height: 24px;
+}
+.pic-postgrid-customizer-selected{
+    display: block;
+    overflow: hidden;
+    margin-right: 0px;
+}
+select#pic_postslider_styles, #pic_postgrid_styles, #pic_postgrid_pagesitems, #pic_postgrid_columns, #pic_postgrid_orderby, #pic_postgrid_order, #pic_postslider_orderby, #pic_postslider_order, #pic_postgrid_size_title, #pic_postgrid_height_title, #pic_postgrid_size_readmore, #pic_postgrid_transform_title, #pic_postgrid_fontweight_title, #pic_postgrid_fontstyle_title, #pic_postgrid_hide_author, #pic_postgrid_hide_postdate, #pic_postgrid_hide_readmore, #pic_postgrid_size_content, #pic_slideritem_autoplay, #pic_slideritem_autohide, #pic_slideritem_centermode, #pic_slideritem_autoplayspeed, #pic_slideritem_stophover, #pic_slideritem_autoplaytimeout, #pic_sliderallitem, #pic_sliderallitemdesktop, #pic_sliderallitemdesktopsmall, #pic_sliderallitemmobile, #pic_slideritem_loop, #pic_slideritem_margin, #pic_slideritem_navigation, #pic_slideritem_navigation_position, #pic_slideritem_pagination, #pic_slideritem_pagination_style, #pic_slideritem_paginationposition{
+    height: 35px;
+    border-radius: 0;
+    border: 1px solid #ddd;
+    width: 165px;
+    text-align: center;
+    box-shadow: none;
+    outline: none;
+    margin-top: 15px;
+}
+select#opacity{
+    height: 40px;
+    border-radius: 0;
+    border: 1px solid #ddd;
+    width: 165px;
+    text-align: center;
+    box-shadow: none;
+    outline: none;
+}
+#teamultimate_designation, #teamultimate_facebook, #teamultimate_twitter, #teamultimate_dribbble, #teamultimate_linkedin, #teamultimate_emailaddress, #teamultimate_contactnumber{
+    height: 40px;
+    border-radius: 0;
+    border: 1px solid #ddd;
+    width: 250px;
+    box-shadow: none;
+    outline: none;
+    margin-top: 15px;
+}
